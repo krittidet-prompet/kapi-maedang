@@ -1,9 +1,6 @@
 window.KAPI_CONFIG = {
-  // 1) ใส่ URL ที่ได้จาก Apps Script Web App Deployment ต้องลงท้ายด้วย /exec
-  GAS_API_URL: 'PUT_YOUR_APPS_SCRIPT_WEB_APP_EXEC_URL_HERE',
-
-  // 2) ต้องตรงกับ Script Property: API_PUBLIC_TOKEN ใน Apps Script
-  API_PUBLIC_TOKEN: 'PUT_YOUR_API_PUBLIC_TOKEN_HERE',
-
-  APP_VERSION: '3.1.0'
+  GAS_API_URL: 'PASTE_YOUR_GAS_WEB_APP_EXEC_URL_HERE',
+  API_PUBLIC_TOKEN: 'PASTE_YOUR_API_PUBLIC_TOKEN_HERE',
+  APP_VERSION: '3.2.1',
+  DAILY_TARGET: 1000
 };
